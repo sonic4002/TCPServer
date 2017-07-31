@@ -37,6 +37,7 @@ int File::write(const string& msg) {
     strcpy(buff,msg.c_str());
     long size = msg.size();
     file.write(buff, size);
+    file.flush();
     return 0;
 }
 

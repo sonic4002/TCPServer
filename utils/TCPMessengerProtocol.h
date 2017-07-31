@@ -19,7 +19,7 @@
 #define SESSION_REFUSED				5
 #define SESSION_ESTABLISHED			6
 #define LOGIN_OR_REGISTER           10
-#define USERS_FILE                  "../files/users"
+#define USERS_FILE                  "C:\\Users\\omrih\\ClionProjects\\Server\\files\\users"
 
 #define TEST_PEER_NAME "test"
 #define SESSION_REFUSED_MSG "Connection to peer refused, peer might be busy or disconnected, try again later"
@@ -82,6 +82,13 @@ namespace npl {
                     data = buff1;
                     break;
                 default:
+                    char buff2[1024];
+                    int len2;
+                    sock->read((char*) &len2, 4);
+                    len = ntohl(len2);
+                    sock->read(buff2, len);
+                    buff2[len] = '\0';
+                    data = buff2;
                     break;
             }
         }

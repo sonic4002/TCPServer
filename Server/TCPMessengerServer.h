@@ -26,16 +26,10 @@ namespace npl {
         TCPSocket* sock;
         Dispatcher* dispacher;
     public:
-
         TCPMessengerServer();
-
         void listpeer();
         void exit();
         void run();
-
-
-
-
         virtual ~TCPMessengerServer();
     };
 

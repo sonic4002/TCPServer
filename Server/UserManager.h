@@ -9,6 +9,8 @@
 #include <iostream>
 #include "../utils/File.h"
 #include "../utils/TCPMessengerProtocol.h"
+#include "../utils/MThread.h"
+#include "Dispatcher.h"
 
 using namespace std;
 namespace npl{
