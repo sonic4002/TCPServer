@@ -20,6 +20,7 @@
 #define SESSION_ESTABLISHED			6
 #define LOGIN_OR_REGISTER           10
 #define USERS_FILE                  "C:\\Users\\omrih\\ClionProjects\\Server\\files\\users"
+#define SUCCESS                     11
 
 #define TEST_PEER_NAME "test"
 #define SESSION_REFUSED_MSG "Connection to peer refused, peer might be busy or disconnected, try again later"
@@ -34,10 +35,12 @@
 #include <sys/select.h>
 #include <arpa/inet.h>
 #include <errno.h>
+
 using namespace std;
 namespace npl {
     class TCPMessengerProtocol {
     public:
+
         void static sendToServer(int command,const string& data, TCPSocket* sock) {
 
             char com[4];

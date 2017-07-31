@@ -26,7 +26,7 @@ void TCPMessengerServer::exit(){
 void TCPMessengerServer::run(){
 
     UserManager * um;
-
+    file  = new File(USERS_FILE);
     while(true){
         TCPSocket* peer = sock->listenAndAccept();
         cout << "is connected in server::run" << peer ->isIsConnected() << endl;
@@ -35,7 +35,7 @@ void TCPMessengerServer::run(){
         }
         TCPMessengerProtocol::sendToServer(LOGIN_OR_REGISTER,"send 1 for login\nsend 2 to register",peer);
 
-        um = new UserManager(peer , dispacher);
+        um = new UserManager(peer , dispacher , file);
         um->start();
 
 //        dispacher->add(peer);

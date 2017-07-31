@@ -19,6 +19,7 @@
 #include "../utils/MThread.h"
 #include "../utils/TCPMessengerProtocol.h"
 #include "Dispatcher.h"
+#include "../utils/File.h"
 using namespace std;
 namespace npl {
 
@@ -26,6 +27,7 @@ namespace npl {
         TCPSocket* sock;
         Dispatcher* dispacher;
     public:
+        File * file;
         TCPMessengerServer();
         void listpeer();
         void exit();

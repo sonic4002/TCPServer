@@ -11,18 +11,18 @@
 #include "../utils/TCPMessengerProtocol.h"
 #include "../utils/MThread.h"
 #include "Dispatcher.h"
+#include "../utils/File.h"
 
 using namespace std;
 namespace npl{
     class UserManager :public MThread{
 
         private:
-            File * file = new File(USERS_FILE);
             TCPSocket * peer;
             Dispatcher * dispatcher;
-
+            File * file;
         public:
-            UserManager( TCPSocket * p, Dispatcher * d);
+            UserManager(TCPSocket * p, Dispatcher * d , File * f);
             void run();
             ~UserManager();
     };

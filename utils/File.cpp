@@ -9,8 +9,12 @@ using namespace npl;
 File::File(char* path) {
     // TODO Auto-generated constructor stub
 
-    file.open(path, fstream::in | fstream::out | fstream::app);
+    file.open(path, ifstream::in | ifstream::out | ifstream::app);
+    this->path = path;
+}
 
+string File::getpath() {
+    return path;
 }
 
 int File::read(char* buffer, int length) {
@@ -47,4 +51,29 @@ void File::close() {
 
 File::~File() {
     // TODO Auto-generated destructor stub
+}
+
+
+bool File::find_user_and_pass(string user, string pass){
+    string f_user, f_pass, f_points;
+    ifstream file(this->path);
+
+    while (file >> f_user >> f_pass >> f_points){
+        if((f_user.compare(user) == 0 ) && (f_pass.compare(pass) == 0)){
+            return true;
+        }
+    }
+    return false;
+}
+
+bool File::find_user(string user){
+    string f_user, f_pass, f_points;
+    ifstream file(this->path);
+
+    while (file >> f_user >> f_pass >> f_points){
+        if(f_user.compare(user) == 0 ){
+            return true;
+        }
+    }
+    return false;
 }

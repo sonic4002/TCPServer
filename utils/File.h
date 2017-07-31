@@ -30,6 +30,7 @@ namespace npl {
     class File: public FileInterface {
         fstream file;
         char buffer [1024];
+        char * path;
 
     public:
         File(char* path);
@@ -38,6 +39,9 @@ namespace npl {
         virtual void close();
         virtual int read(char* buffer, int length);
         virtual int write(const string& msg);
+        bool find_user_and_pass(string user, string pass);
+        string getpath();
+        bool find_user(string user);
 
     };
 
