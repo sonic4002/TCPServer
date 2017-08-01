@@ -29,7 +29,7 @@ namespace npl{
         bool isConnected;
     public:
         bool isIsConnected() const;
-
+        char username [100];
         void setIsConnected(bool isConnected);
 
     private:

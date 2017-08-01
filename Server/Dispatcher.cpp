@@ -91,6 +91,9 @@ void Dispatcher:: run(){
                     case EXIT:
 
                         break;
+                    case GET_USERS_LIST:
+                        TCPMessengerProtocol::sendToServer(command , getListPeer(), peer);
+                        break;
                 }
             }
             else{
@@ -144,10 +147,22 @@ void Dispatcher:: listPeer(){
     vector<TCPSocket*>::iterator iter = peers.begin();
     vector<TCPSocket*>::iterator endIter = peers.end();
     for (;iter != endIter;iter++) {
-        cout << *iter << endl;
+        cout << (*iter)->username << endl;
     }
-
 }
+
+string Dispatcher:: getListPeer(){
+    string str = "";
+    vector<TCPSocket*>::iterator iter = peers.begin();
+    vector<TCPSocket*>::iterator endIter = peers.end();
+    for (;iter != endIter;iter++) {
+        str.append((*iter)->username);
+        str.append("\n");
+    }
+    str.append("\0");
+    return str;
+}
+
 void Dispatcher:: close(){
     running = false;
     peers.clear();

@@ -37,6 +37,7 @@ namespace npl {
         void close();
         TCPSocket  *FindPeer (TCPSocket * peer);
         void erase_peer(TCPSocket* sock);
+        string getListPeer();
 
         virtual ~Dispatcher();
 

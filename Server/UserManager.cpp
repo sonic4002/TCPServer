@@ -28,6 +28,8 @@ void UserManager::run(){
                 TCPMessengerProtocol::sendToServer(LOGIN_OR_REGISTER,"what is your password?",peer);
                 TCPMessengerProtocol::readFromServer(cmd , pass , this->peer);
                 if (file->find_user_and_pass(user,pass)){
+                    peer->username[user.copy(peer->username , user.length(),0)] ='\0';
+                    peer->setIsConnected(true);
                     TCPMessengerProtocol::sendToServer(SUCCESS,"login succeful\nW-E-L-C-O-M-E",peer);
                     dispatcher->add(peer);
                 }
@@ -45,7 +47,9 @@ void UserManager::run(){
                 if (!file->find_user(user)){
                     file->write(user);
                     file->write(" " + pass + " 0\n");
-                    TCPMessengerProtocol::sendToServer(SUCCESS,"thank you for registration",peer);
+                    TCPMessengerProtocol::sendToServer(SUCCESS,"thank you for registration\nW-E-L-C-O-M-E",peer);
+                    peer->username[user.copy(peer->username , user.length(),0)] ='\0';
+                    peer->setIsConnected(true);
                     dispatcher->add(peer);
                     flag = false;
                 }
