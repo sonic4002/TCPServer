@@ -19,9 +19,10 @@
 #define SESSION_REFUSED				5
 #define SESSION_ESTABLISHED			6
 #define LOGIN_OR_REGISTER           10
-#define USERS_FILE                  "C:\\Users\\omrih\\ClionProjects\\Server\\files\\users"
+#define USERS_FILE                  "C:\\Users\\Ruslan\\Documents\\GitHub\\TCPServer\\files\\users"
 #define SUCCESS                     11
 #define GET_USERS_LIST              12
+#define GAME_SESSION                13
 
 #define TEST_PEER_NAME "test"
 #define SESSION_REFUSED_MSG "Connection to peer refused, peer might be busy or disconnected, try again later"

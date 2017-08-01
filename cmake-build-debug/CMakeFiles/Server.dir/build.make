@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/omrih/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Ruslan/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/omrih/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/Ruslan/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/omrih/ClionProjects/Server
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Server.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Server.dir/flags.make
 
 CMakeFiles/Server.dir/Server/Broker.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Server/Broker.cpp.o: ../Server/Broker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/Server/Broker.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/Broker.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/Server/Broker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Server.dir/Server/Broker.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/Broker.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Broker.cpp
 
 CMakeFiles/Server.dir/Server/Broker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Server/Broker.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/Server/Broker.cpp > CMakeFiles/Server.dir/Server/Broker.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Broker.cpp > CMakeFiles/Server.dir/Server/Broker.cpp.i
 
 CMakeFiles/Server.dir/Server/Broker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Server/Broker.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/Server/Broker.cpp -o CMakeFiles/Server.dir/Server/Broker.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Broker.cpp -o CMakeFiles/Server.dir/Server/Broker.cpp.s
 
 CMakeFiles/Server.dir/Server/Broker.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Server.dir/Server/Broker.cpp.o.provides.build: CMakeFiles/Server.dir/
 
 CMakeFiles/Server.dir/Server/Dispatcher.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Server/Dispatcher.cpp.o: ../Server/Dispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Server/Dispatcher.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/Dispatcher.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/Server/Dispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Server.dir/Server/Dispatcher.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/Dispatcher.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Dispatcher.cpp
 
 CMakeFiles/Server.dir/Server/Dispatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Server/Dispatcher.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/Server/Dispatcher.cpp > CMakeFiles/Server.dir/Server/Dispatcher.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Dispatcher.cpp > CMakeFiles/Server.dir/Server/Dispatcher.cpp.i
 
 CMakeFiles/Server.dir/Server/Dispatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Server/Dispatcher.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/Server/Dispatcher.cpp -o CMakeFiles/Server.dir/Server/Dispatcher.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Dispatcher.cpp -o CMakeFiles/Server.dir/Server/Dispatcher.cpp.s
 
 CMakeFiles/Server.dir/Server/Dispatcher.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Server.dir/Server/Dispatcher.cpp.o.provides.build: CMakeFiles/Server.
 
 CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o: ../Server/TCPMessengerServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/Server/TCPMessengerServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/TCPMessengerServer.cpp
 
 CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/Server/TCPMessengerServer.cpp > CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/TCPMessengerServer.cpp > CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.i
 
 CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/Server/TCPMessengerServer.cpp -o CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/TCPMessengerServer.cpp -o CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.s
 
 CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Server.dir/Server/TCPMessengerServer.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/Server.dir/Server/UserManager.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/Server/UserManager.cpp.o: ../Server/UserManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/Server/UserManager.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/UserManager.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/Server/UserManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Server.dir/Server/UserManager.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/Server/UserManager.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/UserManager.cpp
 
 CMakeFiles/Server.dir/Server/UserManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/Server/UserManager.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/Server/UserManager.cpp > CMakeFiles/Server.dir/Server/UserManager.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/UserManager.cpp > CMakeFiles/Server.dir/Server/UserManager.cpp.i
 
 CMakeFiles/Server.dir/Server/UserManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/Server/UserManager.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/Server/UserManager.cpp -o CMakeFiles/Server.dir/Server/UserManager.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/UserManager.cpp -o CMakeFiles/Server.dir/Server/UserManager.cpp.s
 
 CMakeFiles/Server.dir/Server/UserManager.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Server.dir/Server/UserManager.cpp.o.provides.build: CMakeFiles/Server
 
 CMakeFiles/Server.dir/utils/File.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/utils/File.cpp.o: ../utils/File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/utils/File.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/File.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/utils/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Server.dir/utils/File.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/File.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/File.cpp
 
 CMakeFiles/Server.dir/utils/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/utils/File.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/utils/File.cpp > CMakeFiles/Server.dir/utils/File.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/File.cpp > CMakeFiles/Server.dir/utils/File.cpp.i
 
 CMakeFiles/Server.dir/utils/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/utils/File.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/utils/File.cpp -o CMakeFiles/Server.dir/utils/File.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/File.cpp -o CMakeFiles/Server.dir/utils/File.cpp.s
 
 CMakeFiles/Server.dir/utils/File.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Server.dir/utils/File.cpp.o.provides.build: CMakeFiles/Server.dir/uti
 
 CMakeFiles/Server.dir/utils/FileInterface.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/utils/FileInterface.cpp.o: ../utils/FileInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/utils/FileInterface.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/FileInterface.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/utils/FileInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Server.dir/utils/FileInterface.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/FileInterface.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/FileInterface.cpp
 
 CMakeFiles/Server.dir/utils/FileInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/utils/FileInterface.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/utils/FileInterface.cpp > CMakeFiles/Server.dir/utils/FileInterface.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/FileInterface.cpp > CMakeFiles/Server.dir/utils/FileInterface.cpp.i
 
 CMakeFiles/Server.dir/utils/FileInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/utils/FileInterface.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/utils/FileInterface.cpp -o CMakeFiles/Server.dir/utils/FileInterface.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/FileInterface.cpp -o CMakeFiles/Server.dir/utils/FileInterface.cpp.s
 
 CMakeFiles/Server.dir/utils/FileInterface.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Server.dir/utils/FileInterface.cpp.o.provides.build: CMakeFiles/Serve
 
 CMakeFiles/Server.dir/utils/MThread.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/utils/MThread.cpp.o: ../utils/MThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/utils/MThread.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/MThread.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/utils/MThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Server.dir/utils/MThread.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/MThread.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MThread.cpp
 
 CMakeFiles/Server.dir/utils/MThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/utils/MThread.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/utils/MThread.cpp > CMakeFiles/Server.dir/utils/MThread.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MThread.cpp > CMakeFiles/Server.dir/utils/MThread.cpp.i
 
 CMakeFiles/Server.dir/utils/MThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/utils/MThread.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/utils/MThread.cpp -o CMakeFiles/Server.dir/utils/MThread.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MThread.cpp -o CMakeFiles/Server.dir/utils/MThread.cpp.s
 
 CMakeFiles/Server.dir/utils/MThread.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Server.dir/utils/MThread.cpp.o.provides.build: CMakeFiles/Server.dir/
 
 CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o: ../utils/MultipleTCPSocketListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/utils/MultipleTCPSocketListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MultipleTCPSocketListener.cpp
 
 CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/utils/MultipleTCPSocketListener.cpp > CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MultipleTCPSocketListener.cpp > CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.i
 
 CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/utils/MultipleTCPSocketListener.cpp -o CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MultipleTCPSocketListener.cpp -o CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.s
 
 CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Server.dir/utils/MultipleTCPSocketListener.cpp.o.provides.build: CMak
 
 CMakeFiles/Server.dir/utils/Socket.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/utils/Socket.cpp.o: ../utils/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server.dir/utils/Socket.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/Socket.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/utils/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Server.dir/utils/Socket.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/Socket.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/Socket.cpp
 
 CMakeFiles/Server.dir/utils/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/utils/Socket.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/utils/Socket.cpp > CMakeFiles/Server.dir/utils/Socket.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/Socket.cpp > CMakeFiles/Server.dir/utils/Socket.cpp.i
 
 CMakeFiles/Server.dir/utils/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/utils/Socket.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/utils/Socket.cpp -o CMakeFiles/Server.dir/utils/Socket.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/Socket.cpp -o CMakeFiles/Server.dir/utils/Socket.cpp.s
 
 CMakeFiles/Server.dir/utils/Socket.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Server.dir/utils/Socket.cpp.o.provides.build: CMakeFiles/Server.dir/u
 
 CMakeFiles/Server.dir/utils/TCPSocket.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/utils/TCPSocket.cpp.o: ../utils/TCPSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server.dir/utils/TCPSocket.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/TCPSocket.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/utils/TCPSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Server.dir/utils/TCPSocket.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/utils/TCPSocket.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/TCPSocket.cpp
 
 CMakeFiles/Server.dir/utils/TCPSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/utils/TCPSocket.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/utils/TCPSocket.cpp > CMakeFiles/Server.dir/utils/TCPSocket.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/TCPSocket.cpp > CMakeFiles/Server.dir/utils/TCPSocket.cpp.i
 
 CMakeFiles/Server.dir/utils/TCPSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/utils/TCPSocket.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/utils/TCPSocket.cpp -o CMakeFiles/Server.dir/utils/TCPSocket.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/TCPSocket.cpp -o CMakeFiles/Server.dir/utils/TCPSocket.cpp.s
 
 CMakeFiles/Server.dir/utils/TCPSocket.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Server.dir/utils/TCPSocket.cpp.o.provides.build: CMakeFiles/Server.di
 
 CMakeFiles/Server.dir/server_main.cpp.o: CMakeFiles/Server.dir/flags.make
 CMakeFiles/Server.dir/server_main.cpp.o: ../server_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server.dir/server_main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/server_main.cpp.o -c /cygdrive/c/Users/omrih/ClionProjects/Server/server_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Server.dir/server_main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Server.dir/server_main.cpp.o -c /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/server_main.cpp
 
 CMakeFiles/Server.dir/server_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/server_main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/omrih/ClionProjects/Server/server_main.cpp > CMakeFiles/Server.dir/server_main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/server_main.cpp > CMakeFiles/Server.dir/server_main.cpp.i
 
 CMakeFiles/Server.dir/server_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/server_main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/omrih/ClionProjects/Server/server_main.cpp -o CMakeFiles/Server.dir/server_main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/server_main.cpp -o CMakeFiles/Server.dir/server_main.cpp.s
 
 CMakeFiles/Server.dir/server_main.cpp.o.requires:
 
@@ -351,7 +351,7 @@ Server.exe: CMakeFiles/Server.dir/utils/TCPSocket.cpp.o
 Server.exe: CMakeFiles/Server.dir/server_main.cpp.o
 Server.exe: CMakeFiles/Server.dir/build.make
 Server.exe: CMakeFiles/Server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Server.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -378,6 +378,6 @@ CMakeFiles/Server.dir/clean:
 .PHONY : CMakeFiles/Server.dir/clean
 
 CMakeFiles/Server.dir/depend:
-	cd /cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/omrih/ClionProjects/Server /cygdrive/c/Users/omrih/ClionProjects/Server /cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug /cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug /cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug /cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/CMakeFiles/Server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Server.dir/depend
 

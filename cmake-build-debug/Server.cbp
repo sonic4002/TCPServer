@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server">
-				<Option output="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server/fast">
-				<Option output="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,80 +73,80 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/omrih/ClionProjects/Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/Broker.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Broker.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/Broker.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Broker.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/Dispatcher.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Dispatcher.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/Dispatcher.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/Dispatcher.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/TCPMessengerServer.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/TCPMessengerServer.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/TCPMessengerServer.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/TCPMessengerServer.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/UserManager.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/UserManager.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/Server/UserManager.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/Server/UserManager.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/server_main.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/server_main.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/File.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/File.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/File.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/File.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/FileInterface.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/FileInterface.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/FileInterface.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/FileInterface.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/MThread.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MThread.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/MThread.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MThread.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/MultipleTCPSocketListener.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MultipleTCPSocketListener.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/MultipleTCPSocketListener.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/MultipleTCPSocketListener.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/Socket.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/Socket.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/Socket.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/Socket.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/TCPMessengerProtocol.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/TCPMessengerProtocol.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/TCPSocket.cpp">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/TCPSocket.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/utils/TCPSocket.h">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/utils/TCPSocket.h">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/omrih/ClionProjects/Server/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Ruslan/Documents/GitHub/TCPServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
