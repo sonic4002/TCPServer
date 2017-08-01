@@ -77,8 +77,13 @@ void Dispatcher:: run(){
                         for (;iter != endIter;iter++) {
                             if(data == (*iter)->username){
                                 cout << "FOUND USER" << endl;
-                                TCPMessengerProtocol::sendToServer(13 , msg , peer);
-                                TCPMessengerProtocol::sendToServer(13 , msg , *iter);
+                                TCPMessengerProtocol::sendToServer(13 , inet_ntoa((*iter)->get_from().sin_addr) , peer);
+                                TCPMessengerProtocol::sendToServer(13 , inet_ntoa(peer->get_from().sin_addr) , *iter);
+//                                TCPMessengerProtocol::sendToServer(command , msg , peer);
+//                                TCPMessengerProtocol::sendToServer(command , msg , *iter);
+                                broker->add(peer, *iter , this);
+                                erase_peer(peer);
+                                erase_peer(*iter);
                                 break;
                             }
 //                            if (inet_ntoa((*iter)->get_from().sin_addr) == ip){
@@ -87,11 +92,11 @@ void Dispatcher:: run(){
 //                            }
                         }
 
-                        TCPMessengerProtocol::sendToServer(command , msg , peer);
-                        TCPMessengerProtocol::sendToServer(command , msg , *iter);
-                        broker->add(peer, *iter , this);
-                        erase_peer(peer);
-                        erase_peer(*iter);
+//                        TCPMessengerProtocol::sendToServer(command , msg , peer);
+//                        TCPMessengerProtocol::sendToServer(command , msg , *iter);
+//                        broker->add(peer, *iter , this);
+//                        erase_peer(peer);
+//                        erase_peer(*iter);
                         break;
 
                     case EXIT:
