@@ -18,6 +18,11 @@ TCPSocket::TCPSocket(int port) {
     }
     bind(port);
 }
+//To do: Implement Copy constrcutor in order to make a NEW copies of a peers of them and add to Dispather
+TCPSocket TCPSocket::TCPSocket(TCPSocket * peer){
+    TCPSocket a = new TCPSocket(peer);
+}
+
 /*TCP client constructor.
  * The constructor resets the struct and connect to Server.
 */

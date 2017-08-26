@@ -49,7 +49,6 @@ TCPSocket* MultipleTCPSocketListener::listen(int timeout) {
         FD_SET((*iter)->get_fd(),&fdset);
         if ((*iter)->get_fd()>max_fd)
             max_fd = (*iter)->get_fd();
-
     }
 
     //perform the select
@@ -67,9 +66,6 @@ TCPSocket* MultipleTCPSocketListener::listen(int timeout) {
             }
         }
     }
-
-
-
     return NULL;
 }
 

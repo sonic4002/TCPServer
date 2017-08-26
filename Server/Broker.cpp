@@ -27,17 +27,19 @@ void Broker:: add(TCPSocket* peer1,TCPSocket* peer2 , Dispatcher * dispatcher){
 
 void Broker:: run(){
     while(running){
+        cout << "running in broker1" << endl;
         MultipleTCPSocketListener listener;
         listener.add(peer1);
         listener.add(peer2);
         TCPSocket*peer = listener.listen(5);
         if(peer != NULL){
+            cout << "running in broker2" << endl;
             int command;
             string data = "";
             TCPMessengerProtocol::readFromServer(command, data,peer);
             cout<< "BROKER read command from peer "<< command << " " << data <<endl;
             switch (command){
-                case CLOSE_SESSION_WITH_PEER:
+                case CLOSE_SESSION_WITH_PEER_BROCKER:
                     dispatcher->add(peer1);
                     dispatcher->add(peer2);
                     cout<<"peers returned to the dispatcher" << endl;

@@ -20,7 +20,12 @@ void Dispatcher:: add(TCPSocket* peer){
         running = true;
         start();
     }
+}
 
+void Dispatcher:: add_from_broker(TCPSocket* peer){
+    TCPSocket * returned_peer = new TCPSocket(peer);
+    peers.push_back(returned_peer);
+    cout<< "new from broker : " << inet_ntoa(peer->get_from().sin_addr) << " FROM PORT : " << ntohs(peer->get_from().sin_port) << endl;
 }
 
 void Dispatcher::remove(){
@@ -52,6 +57,7 @@ void Dispatcher:: run(){
                 switch (command){
                     case CLOSE_SESSION_WITH_PEER:
                         //TODO fix it to end session with broker - not disconnect from server
+                        cout << "close session! disconnecting from dispatcher" << endl;
                         iter = peers.begin();
                         endIter = peers.end();
                         for (;iter != endIter;iter++) {

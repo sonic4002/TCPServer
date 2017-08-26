@@ -25,29 +25,26 @@ using namespace std;
 
 namespace npl{
     class TCPSocket:public Socket {
-
         bool isConnected;
-    public:
-        bool isIsConnected() const;
-        char username [100];
-        void setIsConnected(bool isConnected);
-
     private:
         bool isClient;
 
+        TCPSocket(struct sockaddr_in from,int connectSock,bool isClient);
     public:
+        bool isIsConnected() const;
 
+        char username [100];
         TCPSocket(int port);
+        TCPSocket TCPSocket(TCPSocket * peer);
         TCPSocket(const string &ip,int port);
         TCPSocket* listenAndAccept();
         int reply(const string& msg);
         int get_fd();
+        void setIsConnected(bool isConnected);
         virtual ~TCPSocket();
         struct sockaddr_in get_from();
-    private:
-        TCPSocket(struct sockaddr_in from,int connectSock,bool isClient);
-
     };
+
 }
 
 #endif //UNTITLED_TCPSOCKET_H
