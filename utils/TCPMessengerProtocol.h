@@ -23,7 +23,7 @@
 #define SUCCESS                     11
 #define GET_USERS_LIST              12
 #define GAME_SESSION                13
-#define CLOSE_SESSION_WITH_PEER_BROCKER 14
+#define GAME_OVER                   14
 
 
 #define TEST_PEER_NAME "test"

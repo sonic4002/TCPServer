@@ -42,6 +42,7 @@ namespace npl {
 
         virtual ~Dispatcher();
 
+        void add_up(TCPSocket &peer);
     };
 
 }

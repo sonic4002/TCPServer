@@ -19,7 +19,7 @@ TCPSocket::TCPSocket(int port) {
     bind(port);
 }
 //To do: Implement Copy constrcutor in order to make a NEW copies of a peers of them and add to Dispather
-TCPSocket TCPSocket::TCPSocket(TCPSocket * peer){
+TCPSocket::TCPSocket(TCPSocket * peer){
     TCPSocket a = new TCPSocket(peer);
 }
 

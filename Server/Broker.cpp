@@ -39,8 +39,11 @@ void Broker:: run(){
             TCPMessengerProtocol::readFromServer(command, data,peer);
             cout<< "BROKER read command from peer "<< command << " " << data <<endl;
             switch (command){
-                case CLOSE_SESSION_WITH_PEER_BROCKER:
+                case SESSION_REFUSED:
+                    cout << "peer1- username " << peer1->username << "back to dispatcher *******" << endl;
+                    TCPMessengerProtocol::sendToServer(SESSION_REFUSED,"",peer);
                     dispatcher->add(peer1);
+                    cout << "peer2- username " << peer2->username << "back to dispatcher *******" << endl;
                     dispatcher->add(peer2);
                     cout<<"peers returned to the dispatcher" << endl;
                     close();
@@ -52,6 +55,12 @@ void Broker:: run(){
                     else{
                         TCPMessengerProtocol::sendToServer(command , data , peer1);
                     }
+                    break;
+                case GAME_OVER:
+                    dispatcher->add(peer1);
+                    dispatcher->add(peer2);
+                    cout<<"peers returned to the dispatcher" << endl;
+                    close();
                     break;
             }
         }

@@ -35,7 +35,7 @@ namespace npl{
 
         char username [100];
         TCPSocket(int port);
-        TCPSocket TCPSocket(TCPSocket * peer);
+        TCPSocket(TCPSocket * peer);
         TCPSocket(const string &ip,int port);
         TCPSocket* listenAndAccept();
         int reply(const string& msg);

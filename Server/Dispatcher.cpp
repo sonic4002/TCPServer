@@ -13,7 +13,17 @@ Dispatcher::Dispatcher() {
     running = false;
 }
 
+void Dispatcher:: add_up(TCPSocket &peer){
+    peers.push_back(&peer);
+    cout<< "new connection FROM ADDRESS : " << inet_ntoa((peer).get_from().sin_addr) << " FROM PORT : " << ntohs(peer.get_from().sin_port) << endl;
+    if(!running){
+        running = true;
+        start();
+    }
+}
+
 void Dispatcher:: add(TCPSocket* peer){
+    cout << "dispatcher.add - peer- username " << peer->username << "back to dispatcher *******" << endl;
     peers.push_back(peer);
     cout<< "new connection FROM ADDRESS : " << inet_ntoa(peer->get_from().sin_addr) << " FROM PORT : " << ntohs(peer->get_from().sin_port) << endl;
     if(!running){
@@ -83,13 +93,18 @@ void Dispatcher:: run(){
                         for (;iter != endIter;iter++) {
                             if(data == (*iter)->username){
                                 cout << "FOUND USER" << endl;
-                                TCPMessengerProtocol::sendToServer(13 , inet_ntoa((*iter)->get_from().sin_addr) , peer);
-                                TCPMessengerProtocol::sendToServer(13 , inet_ntoa(peer->get_from().sin_addr) , *iter);
-//                                TCPMessengerProtocol::sendToServer(command , msg , peer);
-//                                TCPMessengerProtocol::sendToServer(command , msg , *iter);
-                                broker->add(peer, *iter , this);
-                                erase_peer(peer);
-                                erase_peer(*iter);
+                                TCPMessengerProtocol::sendToServer(GAME_SESSION , inet_ntoa(peer->get_from().sin_addr) , *iter);
+                                TCPMessengerProtocol::readFromServer(command, data,*iter);
+                                cout<< "GAME SSION read command from peer "<< inet_ntoa(peer->get_from().sin_addr) << " " << command << " " << data <<endl;
+                                cout << "coomand " << command << " data = " << data << " ********** <<<< " << endl;
+                                if (command == GAME_SESSION){
+                                    TCPMessengerProtocol::sendToServer(GAME_SESSION, inet_ntoa((*iter)->get_from().sin_addr) , peer);
+                                    broker->add(peer, *iter , this);
+                                    erase_peer(peer);
+                                    erase_peer(*iter);
+                                } else{
+                                    TCPMessengerProtocol::sendToServer(SESSION_REFUSED, "n" , peer);
+                                }
                                 break;
                             }
 //                            if (inet_ntoa((*iter)->get_from().sin_addr) == ip){
