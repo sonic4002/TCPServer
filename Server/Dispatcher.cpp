@@ -5,6 +5,7 @@
 
 #include <string>
 #include "Dispatcher.h"
+#include <cstdlib>
 #include "Broker.h"
 using namespace npl ;
 using namespace std;
@@ -82,7 +83,13 @@ void Dispatcher:: run(){
                         break;
 
                     case OPEN_SESSION_WITH_PEER:
+                    {
                         cout<< "read command from peer "<< command << " " << data <<endl;
+                        int randInt = 999;
+                        int counter = 0;
+                        if (data.compare("random") == 0){
+                            randInt = static_cast<int>(rand() % peers.size());
+                        }
                         cout<< "FROM ADDRESS : " << inet_ntoa(peer->get_from().sin_addr) << " FROM PORT : " << ntohs(peer->get_from().sin_port) << endl;
 //                        ip = data.substr(0, data.find(":"));
 //                        port = data.substr(data.find(":")+1,data.length());
@@ -91,7 +98,7 @@ void Dispatcher:: run(){
                         iter = peers.begin();
                         endIter = peers.end();
                         for (;iter != endIter;iter++) {
-                            if(data == (*iter)->username){
+                            if(data == (*iter)->username || randInt == counter){
                                 cout << "FOUND USER" << endl;
                                 TCPMessengerProtocol::sendToServer(GAME_SESSION , inet_ntoa(peer->get_from().sin_addr) , *iter);
                                 TCPMessengerProtocol::readFromServer(command, data,*iter);
@@ -107,27 +114,18 @@ void Dispatcher:: run(){
                                 }
                                 break;
                             }
-//                            if (inet_ntoa((*iter)->get_from().sin_addr) == ip){
-//                                cout << "ITER loop to find : " << inet_ntoa((*iter)->get_from().sin_addr) << endl;
-//                                break;
-//                            }
+                            counter++;
                         }
-
-//                        TCPMessengerProtocol::sendToServer(command , msg , peer);
-//                        TCPMessengerProtocol::sendToServer(command , msg , *iter);
-//                        broker->add(peer, *iter , this);
-//                        erase_peer(peer);
-//                        erase_peer(*iter);
+                    }
                         break;
-
                     case EXIT:
-
                         break;
                     case GET_USERS_LIST:
                         TCPMessengerProtocol::sendToServer(command , getListPeer(), peer);
                         break;
                     default:break;
                 }
+
             }
             else{
                 if (command == EXIT){
