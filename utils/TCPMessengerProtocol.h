@@ -19,7 +19,7 @@
 #define SESSION_REFUSED				5
 #define SESSION_ESTABLISHED			6
 #define LOGIN_OR_REGISTER           10
-#define USERS_FILE                  "C:\\Users\\omrih\\ClionProjects\\TCPServer\\files\\users"
+#define USERS_FILE                  "C:\\Users\\Omri\\CLionProjects\\TCPServer\\files\\users"
 #define SUCCESS                     11
 #define GET_USERS_LIST              12
 #define GAME_SESSION                13

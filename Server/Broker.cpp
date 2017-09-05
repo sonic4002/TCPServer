@@ -40,10 +40,10 @@ void Broker:: run(){
             cout<< "BROKER read command from peer "<< command << " " << data <<endl;
             switch (command){
                 case SESSION_REFUSED:
-                    cout << "peer1- username " << peer1->username << "back to dispatcher *******" << endl;
+                    cout << "peer1- username " << peer1->username << " back to dispatcher *******" << endl;
                     TCPMessengerProtocol::sendToServer(SESSION_REFUSED,"",peer);
                     dispatcher->add(peer1);
-                    cout << "peer2- username " << peer2->username << "back to dispatcher *******" << endl;
+                    cout << "peer2- username " << peer2->username << " back to dispatcher *******" << endl;
                     dispatcher->add(peer2);
                     cout<<"peers returned to the dispatcher" << endl;
                     close();
